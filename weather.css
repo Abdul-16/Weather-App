@@ -35,6 +35,7 @@ body {
 body>div {
   text-align: center;
   background-image: url(back-img.jpg);
+  background-size: 100%;
   border-radius: 15px;
   padding: 15px;
 }
