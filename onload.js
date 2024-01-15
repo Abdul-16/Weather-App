@@ -1,7 +1,7 @@
 async function Default () {
   const baseURL = 'http://api.openweathermap.org/'
   const APIkey = 'api'
-  const urlWeather = `${baseURL}data/2.5/weather?q=mumbai&appid=${APIkey}`
+  const urlWeather = `${baseURL}data/2.5/weather?q=austin&appid=${APIkey}`
 
   const weather = await fetch(urlWeather).then(response => response.json())
   const { name, dt } = weather
