@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <link rel="icon" href="icon.png" />
+    <link rel="stylesheet" href="weather.css" />
+    <script src="onload.js"></script>
+  </head>
+  <body>
+    <div>
+      <div>
+        <input
+          id="cityInput"
+          type="text"
+          placeholder="City"
+          class="js-get-city input-style"
+        />
+        <button id="search-btn" onclick="get_weather();">Search</button>
+      </div>
+      <h2 id="city" class="city-name"></h2>
+      <p id="dates-times" class="date-time"></p>
+      <h1 id="temperature" class="temp"></h1>
+      <p id="_weather" class="weather"></p>
+      <p id="high-min" class="high-min-temp"></p>
+    </div>
+
+    <script src="weather.js"></script>
+  </body>
+</html>
